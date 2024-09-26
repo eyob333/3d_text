@@ -60,12 +60,9 @@ fontLoder.load(
         // );
         const textMaterial = new THREE.MeshMatcapMaterial()
         textMaterial.matcap = MatcapTextue
-        // textMaterial.wireframe = true
         const text = new THREE.Mesh(textGeometry, textMaterial)
         scene.add(text)
         textGeometry.center()
-        
-        console.time('donuts')
 
         const donutMesh = new THREE.MeshMatcapMaterial()
         const donutGeometry = new THREE.TorusGeometry(0.3, 0.2, 20, 45)
@@ -86,7 +83,6 @@ fontLoder.load(
 
             scene.add(donut)
         }
-        console.timeEnd('donuts')
     }
 )
 
