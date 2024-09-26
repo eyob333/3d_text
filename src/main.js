@@ -164,7 +164,8 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
  */
 const clock = new THREE.Clock()
 
-function tick(){
+const tick = () =>
+{
     // const elapsedTime = clock.getElapsedTime()
 
     // Update controls
