@@ -38,7 +38,7 @@ fontLoder.load(
     'static/fonts/helvetiker_regular.typeface.json',
     (font) => {
         const textGeometry = new TextGeometry(
-            'Hello Threejs',
+            'for my sis.',
             {
                 font: font,
                 size: 0.5,
